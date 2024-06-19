@@ -23,7 +23,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple:black;
+    --purple:#222;
     --black:#ebebeb;
     --white: #cdb282;
     --grey: #110303;
@@ -196,7 +196,8 @@ header .navbar a{
 
 header .navbar a:hover,
 header .navbar a.active{
-    color: var(--purple);
+    color: #cdb282;
+    text-decoration: underline;
 }
 
 header #menu-btn{
@@ -466,7 +467,7 @@ header #menu-btn:hover{
 
  .skill-item .box .progress-bar{
     width:100%;
-    background:#222;
+    background:white;
     overflow:hidden;
     height:1rem;
     border-radius: 50rem;
